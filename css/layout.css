@@ -15,15 +15,8 @@
 }
 
 .cpHeading {
-  flex-grow: 1;
-}
-
-.cpText1 {
-  width: 49%;
-}
-
-.cpImage1 {
-  width: 49%;
+  display: block;
+  width: 100%;
 }
 
 .cpImageGroup2 {

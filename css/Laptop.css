@@ -55,7 +55,7 @@
   nav a {
     padding: 10px;
     font-size: 15px;
-  }
+    }
 
   #navbar {
     margin: 0;
@@ -150,7 +150,7 @@
 
   /* ### Flexbox used to layout Company Background page for Laptop size ### */
   .container2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .cpHeading h2 {
@@ -158,93 +158,92 @@
     align-items: center;
     justify-content: center;
     color: var(--pastelPink);
-  }
-
-  .cpText1 {
-    width: 49%;
-    display: block;
-  }
-  
-  .cpImage1 {
-    width: 49%;
-    display: block;
-  }
-
-
-  /* 
-
-  .break {
     flex-basis: 100%;
-    height: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 50px 0;
   }
 
-
-
-
-
-  .cpImageGroup2 {
+  .cpHeading {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
 
-  .cpImageGroup2A,
-  .cpImageGroup2B,
-  .cpImageGroup2C,
-  .cpImageGroup2D {
-    width:23%;
-  } */
-
-}
-
-  /* 
-
-  .cpHeading h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--pastelPink);
-  }
-
   .cpText1 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 48%;
+    align-self: center;
+    padding: 1%;
+    font-size: 15px;
+    line-height: 1.2em;
+   }
+  
+  .cpImage1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 48%;
+    align-self: center;
+    padding: 1%;
   }
 
-  .cpTextp1,
-  .cpTextp2,
-  .cpTextp3,
-  .cpTextp4 {
-    line-height: 1.3em;
-    margin-bottom: 20px;
+  .cpTextp2 {
     padding: 5%;
-    padding-top: 0;
+    background-color: var(--pastelLightBlue);
+    color: var(--pastelDarkBlue);
   }
 
-  .cpImage1,
-  .cpImageGroup2,
+  .cpTextp3 {
+    padding: 5%;
+    background-color: var(--pastelGrey);
+  }
+
   .cpImageGroup2A,
   .cpImageGroup2B,
   .cpImageGroup2C,
-  .cpImageGroup2D {
+  .cpImageGroup2D, 
+  .cpImageGroup2 { 
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-  }
-
-  #designImage {
-    width: 90%;
-    height: auto;
+    flex-direction: row;
+    width: 60%;
   }
 
   .picture3 {
+    display: flex;
     width: 100%;
     height: auto;
     margin: 10px;
-  } */
+  }
+
+  .cpText4 {
+    padding: 5%;
+    background-color: var(--pastelLightBlue);
+    color: var(--pastelDarkBlue);
+  }
+
+}
+
+@media (min-width: 1101px) {
+
+  .titleW {
+    max-width: 150px;
+  }
+
+  nav a {
+    padding: 18px;
+    font-size: 21px;
+  }
+
+
+  .cpText1 {
+    font-size: 20px;
+    line-height: 1.3em;
+   }
+
+
+}
+  

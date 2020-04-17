@@ -239,3 +239,9 @@ li>a:only-child:after {
   color: var(--pastelDarkBlue);
   font-size: .8em;
 }
+
+/* Company Mission specific styling*/
+.companyMissionInfoContainer {
+  margin: 0 10% 10% 10%;
+  justify-content: left;
+}
