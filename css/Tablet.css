@@ -48,7 +48,8 @@
   }
 
 
-  .current {
+  .current,
+  #current {
     border: 3px solid var(--pastelPink);
   }
 

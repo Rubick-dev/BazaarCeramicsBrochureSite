@@ -32,6 +32,7 @@
   #logoImage {
     border: 2px solid transparent;
     margin-top: 20px;
+    border-radius: 10%;
   }
 
   #logoImage:hover {
@@ -39,12 +40,13 @@
     border: 2px solid var(--pastelPink);
   }
 
-  .current {
+  .current,
+  #current {
     border: 3px solid var(--pastelPink);
   }
 
   nav a {
-    padding-left: 0;
+    padding-left: 5px;
     font-size: 10px;
     line-height: 30px;
   }
@@ -282,8 +284,6 @@
     height: auto;
     margin: 10px;
   }
-
-
 }
 
 /* ### Added a very small sizing adjustment to keep the page readable #### */
